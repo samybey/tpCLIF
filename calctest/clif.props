@@ -1,0 +1,21 @@
+clif.parameters \
+-Dclif.codeserver.path=TPCLIF1 \
+-Dclif.codeserver.port=1357 \
+-Dclif.codeserver.shared=false \
+-Dclif.eclipse.statdir=TPCLIF1/stats \
+-Dclif.filestorage.clean=none \
+-Dclif.filestorage.delay_s=60 \
+-Dclif.filestorage.dir=TPCLIF1/report \
+-Dclif.filestorage.maxpending=1000 \
+-Dclif.globaltime=false \
+-Dclif.isac.groupperiod=100 \
+-Dclif.isac.jobdelay=-1 \
+-Dclif.isac.schedulerperiod=100 \
+-Dclif.isac.threads=100 \
+-Dfractal.provider=org.objectweb.fractal.julia.Julia \
+-Dfractal.registry.port=1234 \
+-Djulia.config=etc/julia.cfg \
+-Djulia.loader=org.objectweb.fractal.julia.loader.DynamicLoader \
+-Dswing.defaultlaf=javax.swing.plaf.nimbus.NimbusLookAndFeel \
+-Xms128m -Xmx256m \
+-server
